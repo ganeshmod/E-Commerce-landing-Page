@@ -1,0 +1,269 @@
+.card-hvr:hover{
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px, hwb(120 0% 80%) 0px 0px 0px 0.2px;
+}
+.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dollar{
+    text-decoration: line-through;
+}
+.ftr{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    flex-wrap: nowrap;
+}
+.mtb-15child > div{
+    margin-top:12px !important;
+}
+.american-img{
+    width: 15px !important;
+    height: 20px  !important;
+    margin-right: 5px;
+  
+}
+
+.icon-america{
+    background: url('https://cdn-icons-png.flaticon.com/128/206/206626.png') no-repeat left center;
+    padding-left:20px;
+    background-size: 20px;
+}
+ .english{
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: bolder;
+    opacity: 0.8;
+    
+ }
+ .clock-img{
+    width: 70px;
+    height: 70px;
+   color: yellowgreen;
+ }
+ .container-fluid{
+    background-color:whitesmoke;
+ }
+ .text-muted{
+    font-size: 13px;
+ }
+ .container{
+    flex-wrap: nowrap;
+ }
+ /* .payment-gateway{
+    width: 50px;
+    height: 50px;
+ }
+ .payment-gateway-2{
+    height: 100px;
+    width: 150px;
+ } */
+ /* .check{
+    background-repeat: no-repeat;
+    background-position: left center;
+ } */
+ 
+ .footer-p{
+    font-size: 13px;
+    opacity: 0.5;
+ }
+ .social-media-icon{
+    height: 30px;
+    width: 30px;
+ }
+ .shape{
+    margin-top:20px !important ;
+    padding-right: 63px !important;
+    opacity: 0.8;
+   
+    
+ }
+ .text-start{
+    padding-right: 200px!important
+    ;
+ }
+ .left-move{
+    padding-left:21px;
+ }
+ .qr-block{
+   text-align: center;
+  
+ }
+ .english:hover{
+  color: yellowgreen;
+ }
+ .frescart{
+   margin-top: 10px;
+    margin-right: 13px;
+ }
+
+ /* ul li{
+   display: inline;;
+ }
+ .all-depatments{
+   display: block;
+ }
+  */
+  .Main-divi{
+   display:flex;
+   align-items: center;
+   background-color: aqua;
+  }
+  ul li{
+   list-style-type: none;
+   display: inline;
+  
+
+  }
+ .Main-list{
+   margin-top: 5px;
+  }
+ 
+  .featured-Categories:hover{
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px, #00330ec1 0px 0px 0px 0.2px;
+  }
+
+
+
+  .custom-col {
+   flex: 0 0 20%;  
+   max-width: 20%; 
+   padding: 10px;
+   font-size: 15px;  
+ }
+ 
+ .card {
+   height: 100%;   
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .card-body {
+   flex-grow: 1; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+ 
+ .Nameofproduct:hover{
+   color: green;
+ }
+ .payment-partners{
+   margin-top: 6px;
+    margin-left: 25px;
+ }
+ .ftrML15{
+   margin-left: -14px;
+ }
+/* @media (min-width:769){
+   .desktop-layout{
+      displex:flex;
+      justify-content: space-between;
+      .mobile-layout{
+         display:none;
+      }
+   }
+} */
+ 
+
+ /* @media (max-width: 768px) {
+   .desktop-layout {
+     display: none; 
+   }
+   .mobile-layout {
+     display: flex;
+     justify-content: space-between;
+   }
+ } */
+ 
+ .payment-partners {
+   font-weight: 19px;
+   font-size: 16px;
+ }
+ 
+ .payment-gateway {
+   height: 25px;
+   margin: 0 5px;
+ }
+ 
+ .payment-gateway-2 {
+   height: 40px;
+   margin: 0 5px;
+ }
+ 
+ .footer-text {
+   font-size: 14px;
+   color: #6c757d;
+   margin-bottom: 0;
+ }
+ 
+ .social-media-icon {
+   width: 25px;
+   height: 25px;
+   margin-left: 10px;
+   opacity: 0.8;
+   transition: 0.3s;
+ }
+ 
+ .social-media-icon:hover {
+   opacity: 0.5;
+ }
+ 
+ .nav-item.dropdown:hover .dropdown-menu {
+   display: block;
+ }
+ 
+ .dropdown-menu {
+   display: none;
+   position: absolute;
+   background-color: white;
+   min-width: 150px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+   z-index: 10;
+ }
+ 
+ .dropdown-item {
+   padding: 8px 16px;
+   text-decoration: none;
+   display: block;
+   color: black;
+ }
+ 
+ .dropdown-item:hover {
+   background-color: #f8f9fa;
+ }
+ .ulmargin li:hover{
+   background-color: #008000b5;
+   border-radius: 5px;
+ }
+ .ulmargin>li{
+  
+  margin-right: 10px;
+   @media (min-width:768px){
+    margin-top:-46px;
+  }
+  @media (max-width:767px){
+    margin-top: 0px;
+    
+  }
+
+ }
+ @media (max-width: 991px) {
+  .ALLDEPART {
+    display: none !important;  
+  }
+}
+@media (max-width: 991px) { 
+  .small-container {
+     display: flex;
+   
+  }
+}
+
